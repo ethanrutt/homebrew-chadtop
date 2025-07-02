@@ -1,8 +1,9 @@
 class Chadtop < Formula
     desc "tui process and resource monitor"
     homepage "https://github.com/ethanrutt/chadtop"
-    url "https://github.com/ethanrutt/chadtop/archive/refs/tags/v0.1.0.tar.gz"
-    sha256 "ff0eb2f82b6ac3c6c6299a162c575e0ab116ff51d7f7230f78475ea3242e47eb"
+    url "https://github.com/ethanrutt/chadtop/archive/refs/tags/v0.1.1.tar.gz"
+    sha256 "cae92bbb36730dc266abf06ccf80daf35b75d43cb734e3b98587f7a82fd74a45"
+
 
     depends_on "rust" => :build
 
